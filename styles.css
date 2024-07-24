@@ -207,3 +207,49 @@
   margin-bottom: 15px;
   color: #333461;
 }
+.free-guide {
+  margin: 0 auto;
+  padding: 100px 0;
+  justify-content: space-between;
+}
+
+.free-guide-left {
+  width: 40%;
+  margin: 210px 177px 50px 30px;
+}
+.free-guide-left h1 {
+  font-size: 46px;
+  font-weight: 800;
+  color: #333461;
+  line-height: 56px;
+  margin-bottom: 22px;
+}
+.free-guide-left p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #4a556c;
+  line-height: 33px;
+  margin-bottom: 22px;
+}
+.free-guide-left span {
+  font-size: 17px;
+  font-weight: 400;
+  color: #4a556c;
+  line-height: 33px;
+  margin-bottom: 21.08px;
+}
+.free-guide-left button {
+  margin: 22px 0 0 0;
+  display: block;
+  width: 250px;
+  height: 42px;
+}
+
+.free-guide-right {
+  margin-top: 158px;
+
+}
+
+.free-guide-right img {
+scale: calc(+130%);
+}
