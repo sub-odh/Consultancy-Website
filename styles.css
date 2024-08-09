@@ -54,6 +54,10 @@
   background-color: #faf8f6;
 }
 
+.zigzagGreen {
+  margin: 70px 0 0 0;
+}
+
 .banner-left {
   max-width: 50%;
 }
@@ -250,7 +254,7 @@
 }
 
 .free-guide-right img {
-  scale: calc(+130%);
+  transform: scale(1.2);
 }
 
 .cta {
@@ -290,4 +294,95 @@
   height: 100%;
   border-radius: 15px;
   overflow: hidden;
+}
+
+.newsletter {
+  padding: 20px;
+  background-color: #faf8f6;
+}
+
+.newsletter form {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  margin: 0 50px;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #218838;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 10px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  color: #343a40;
+}
+
+.footer-section p,
+ul,
+li {
+  color: #6c757d;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section ul {
+  padding-top: 10px;
+}
+
+.footer-section ul li {
+  padding: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #6c757d;
+}
+
+.footer-bottom .socials img {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
 }
